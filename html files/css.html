@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script>
+            function add(a,b){
+                var c=a+b;
+                return c;
+            }
+            function sub(a,b){
+                var c=a-b;
+                return c;
+            }
+            function mul(a,b){
+                var c=a*b;
+                return c;
+            }
+            function div(a,b){
+                var c=a/b;
+                return c;
+            }
+            var a,b;
+            a=document.getElementById("fn").value;
+             b=document.getElementById("sn").value;
+            //c=a+b;
+            //document.writeln("sum is:"+c);
+             window.alert("sum is:"+add(a,b));
+             window.alert("subtraction is:"+sub(a,b));
+             window.alert("multiplication is:"+mul(a,b));
+             window.alert("division is:"+div(a,b));
+        </script>
+    </head>
+</html>

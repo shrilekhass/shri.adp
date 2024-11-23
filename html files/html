@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <h1 align="center">Sri Krishna College of technology</h1>
+        <hr width="400" size="108" color="yellow" align="right">
+        <h2>Departments</h2>
+        <ul type="circle">
+            <li>CSE</li>
+            <li>ECE</li>
+            <li>IT</li>
+        </ul>
+    </body>
+</html>
